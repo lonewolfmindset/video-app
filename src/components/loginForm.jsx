@@ -9,6 +9,8 @@ class LoginForm extends Form {
     data: { username: "", password: "" },
     errors: {},
   };
+  
+  // I am a comment
 
   schema = {
     username: Joi.string().required().label("Username"),
